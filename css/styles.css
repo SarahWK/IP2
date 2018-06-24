@@ -4,14 +4,13 @@ html {
       -ms-text-size-adjust: 100%;
 }
 
-
 .logo{
     margin-left: auto;
     margin-right: auto;
     float: none;
     margin-top: 100px;
+  }
 
-
-.section1 {
-   background: url(images/background/landing.jpg)no-repeat;
+.landing{
+  background: url(images/background/landing.jpg)no-repeat;
 }
