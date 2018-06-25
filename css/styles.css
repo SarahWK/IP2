@@ -40,4 +40,4 @@
 .part2 {display: table; text-align: center; background-color:#FFC987; width:50%; height:50%; float:left}
 .part3 {display: table; text-align: center; background-color:#f4a460; width:50%; height:50%; float:left}
 .part4 {display: table; text-align: center; background-color:#7F171F; width:50%; height:50%; float:left}
-h1 {display: table-cell; vertical-align: middle;}
+h4 {display: table-cell; vertical-align: middle;}
