@@ -1,17 +1,11 @@
-html {
-  font-family: 'Roboto';
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
 
 .container{
 	margin: inherit;
     width: inherit;
-    float: right;
 }
 .landing-text {
   background: transparent;
-    text-align: center;
+    vertical-align: middle;
     font-size-adjust: auto;
     font-size: 60px;
 }
@@ -28,6 +22,12 @@ html {
     margin-top: 100px;
   }
 
+  .logoBig{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .landing{
   background: url(images/background/landing.jpg)no-repeat;
 }
@@ -36,3 +36,8 @@ html {
     background: whitesmoke;
     height: 300px;
 }
+.part1 {display: table; text-align: center; background-color:#722F37; width:50%; height:50%; float:left}
+.part2 {display: table; text-align: center; background-color:#FFC987; width:50%; height:50%; float:left}
+.part3 {display: table; text-align: center; background-color:#f4a460; width:50%; height:50%; float:left}
+.part4 {display: table; text-align: center; background-color:#7F171F; width:50%; height:50%; float:left}
+h1 {display: table-cell; vertical-align: middle;}
