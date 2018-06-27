@@ -6,6 +6,7 @@
 
 ## Description
 My application mimics a website as part of my IP for Friday
+https://sarahwk.github.io/IP2
 ## Setup/Installation Requirements
 * Started with layout in html and worked section by section
 * Added in the css
