@@ -1,3 +1,10 @@
+html,body
+{
+  padding:0;
+  margin:0;
+  height:100%;
+  min-height:100%;
+}
 
 .container{
 	margin: inherit;
@@ -29,15 +36,31 @@
   }
 
 .landing{
-  background: url(images/background/landing.jpg)no-repeat;
+  background: url('../images/background/landing.jpg') no-repeat;
 }
 
 .section1{
     background: whitesmoke;
     height: 300px;
 }
-.part1 {display: table; text-align: center; background-color:#722F37; width:50%; height:50%; float:left}
-.part2 {display: table; text-align: center; background-color:#FFC987; width:50%; height:50%; float:left}
-.part3 {display: table; text-align: center; background-color:#f4a460; width:50%; height:50%; float:left}
-.part4 {display: table; text-align: center; background-color:#7F171F; width:50%; height:50%; float:left}
+.part1 {display: table; text-align: center; background-color:#F15A29; width:50%; height:50%; float:left}
+.part2 {display: table; text-align: center; background-color:#F15A29; width:50%; height:50%; float:left}
+.part3 {background-color:#f4a460; width:50%; height:50%; float:left}
 h4 {display: table-cell; vertical-align: middle;}
+
+.part{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
+.breakfast h5{
+  position:absolute;
+  top:8xp;
+  left:16p;
+}
+.btn {
+  background-colour:white;
+  color:#F15A29;
+  border:2px solid #F15A29;
+  text-align:center;
+}
